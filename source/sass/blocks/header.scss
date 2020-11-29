@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  width: $mobile-width;
+  margin: 0 auto;
+  padding-top: 12px;
+  background-color: $bg-content;
+}
+
+.header__logo {
+  padding: 0 20px;
+  padding-bottom: 15px;
+}

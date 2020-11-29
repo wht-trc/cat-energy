@@ -1,0 +1,50 @@
+.additional {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: $bg-content;
+}
+
+.additional__title {
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 40px;
+
+  @include oswald-parameters(24px, 24px, 400, $title-color);
+
+  text-transform: none;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.additional__product {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.additional__bonus {
+  width: 280px;
+  height: 289px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: $button-color;
+  background-image: url("../img/gift-photo-mobile@1x.jpg");
+  background-position: 0 0;
+  //background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.additional__text {
+  padding-left: 50px;
+  padding-top: 185px;
+  padding-right: 50px;
+
+  @include arial-parameters(16px, 20px, 400, $bg-content);
+
+  text-align: center;
+}

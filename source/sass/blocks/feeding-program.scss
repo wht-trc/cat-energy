@@ -1,0 +1,23 @@
+.feeding-program {
+  display: flex;
+  flex-direction: column;
+  width: $mobile-width;
+  margin: 0 auto;
+  background-color: $bg-content;
+}
+
+.feeding-program__title {
+  margin: 0;
+  padding: 30px 20px;
+
+  @include oswald-parameters($title-size, $title-size, 400, $title-color);
+
+  text-transform: none;
+  border-top: 1px solid #ebebeb;
+}
+
+.feeding-program__text {
+  padding: 0 20px;
+
+  @include oswald-parameters($text-size, 18px, 400, $title-color);
+}

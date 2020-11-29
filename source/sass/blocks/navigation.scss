@@ -1,0 +1,42 @@
+.navigation {
+  background-color: transparent;
+}
+
+.navigation__list {
+  display: flex;
+  flex-direction: column;
+
+  @include list-decoration();
+}
+
+.navigation__item {
+  padding: 20px 0;
+  border-top: solid 1px #e6e6e6;
+}
+
+.navigation__link {
+  display: block;
+  text-align: center;
+
+  @include oswald-parameters($nav-size, 20px, 500, $title-color);
+
+  font-weight: bold;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 1;
+    text-decoration: underline $button-color;
+  }
+}
+
+.navigation__open {
+  display: none;
+}
+
+.navigation__close {
+  display: none;
+}

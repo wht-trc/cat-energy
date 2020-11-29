@@ -1,0 +1,39 @@
+.promo {
+  height: 285px;
+  margin-bottom: 195px;
+  background-color: #64a83b;
+  text-align: center;
+}
+
+.promo__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: $mobile-width;
+  margin: 0 auto;
+  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.promo__title {
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+
+  @include oswald-parameters($title-size, $title-size, 400, $bg-content);
+
+  text-transform: none;
+}
+
+.promo__text {
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  @include oswald-parameters($text-size, $text-size, 400, $bg-content);
+}
+
+.promo__img {
+  margin: 0 auto;
+}
