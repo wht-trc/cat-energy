@@ -1,0 +1,26 @@
+.footer {
+  background-color: $basic-grey;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.footer__logo {
+  padding-bottom: 20px;
+  border-bottom: solid 1px #d9d9d9;
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-top: solid 1px #d9d9d9;
+}

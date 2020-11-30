@@ -1,0 +1,46 @@
+.map {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -5px;
+  background-color: $bg-content;
+}
+
+.map__wrapper {
+  background-color: $basic-grey;
+}
+
+.map__text {
+  display: flex;
+  flex-direction: row;
+  width: 280px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+.map__text--inner {
+  background-color: $basic-grey;
+}
+
+.map__invitation {
+  @include oswald-parameters(16px, 18px, 400, $logo-text-color);
+}
+
+.map__adress {
+  @include arial-parameters($text-size, 20px, 400, $text-color);
+}
+
+.map__img {
+  position: absolute;
+  top: 127px;
+  left: calc(50% - 160px);
+  z-index: 1;
+  display: block;
+}
+
+.map__iframe {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  padding: 0;
+}
